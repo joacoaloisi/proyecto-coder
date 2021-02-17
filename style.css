@@ -1,0 +1,275 @@
+*{ 
+    margin: 0.5%;
+    
+}
+
+h1 {
+   color: rgb(53, 245, 6);
+}
+
+.bordesRedondeados {
+    background-color: rgb(0, 128, 6);
+    color:whitesmoke;
+    border: 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+}
+
+.italica {
+    font-style: italic;
+}
+
+.fontColor{
+    color: lime;
+}
+
+.negrita {
+    font-weight:700;
+}
+
+.TextoMinimo {
+    font-size:medium;
+}
+
+.verdana{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Responsive Mobile */
+
+.justify {
+text-align:center;
+}
+@media (max-width:768px){
+    .justify {
+        text-align: left;
+        font-size: smaller;
+    }
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+
+ul { display:inline; padding:0; text-align:right}
+li { display:inline;}
+li a { white-space:nowrap;}
+
+.backgroundImage{
+    background-repeat: none;
+    background-position: center top;
+    background-image: url(https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Vegan-Chefs.png);
+    background: linear-gradient(black);
+}
+
+.fontTexto{
+    color:rgb(246, 250, 250);
+
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.relleno {
+    height: 90px;
+    width: 30%;
+    background-color: rgb(233, 244, 248);
+    border-style: dashed;
+  }
+.rellenoContacto{
+    height: 135px;
+    width: 65%;
+    background-color: rgb(165, 214, 231);
+    border-style: dashed;
+}
+  
+.rellenoTitulo {
+    height: 10%;
+    width: 20%;
+    background-color: chartreuse;
+    border-style: solid;
+}
+
+/* Flex box */
+
+.padre-Flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    height: 200px;
+    align-content: flex-start;
+}
+
+.hijo {
+    background-color: rgb(10, 248, 208);
+    width: 200px;
+    height: 240px;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+
+.card{
+    border: 5px black solid;
+    background-color:green;
+}
+
+.rellenoGrid{
+    height: 80%;
+    width: 80%;
+    border-style: solid;
+    background-color: rgb(10, 248, 208);
+}
+
+
+/* grid containers*/
+
+.grid {
+display: grid;
+grid-template-areas: "food8 description8 price8" "food description price" "food2 description2 price2" "food3 description3 price3" "food4 description4 price4" "food5 description5 price5" "food6 description6 price6" "food7 description7 price7";
+}
+
+/* grid items*/
+
+.v {
+    grid-area: food8;
+    background-color:chartreuse;
+}
+
+.w {
+    grid-area: description8;
+    background-color:chartreuse;
+}
+
+.x {
+    grid-area: price8;
+    background-color:chartreuse;
+}
+
+.a {
+    grid-area: food;
+}
+
+.h {
+    grid-area: description;
+
+}
+
+.i {
+    grid-area: price;
+}
+
+.b {
+    grid-area: food2;
+}
+
+.j {
+grid-area: description2;
+}
+
+.k {
+    grid-area: price2;
+}
+
+.c {
+    grid-area: food3;
+}
+
+.l {
+    grid-area: description3;
+}
+
+.m {
+    grid-area: price3;
+}
+
+.d {
+    grid-area: food4;
+
+}
+
+.n{
+    grid-area: description4;
+}
+
+.o{
+    grid-area: price4;
+}
+
+.e {
+    grid-area: food5;
+}
+
+.p{
+    grid-area: description5;
+}
+
+.q{
+    grid-area: price5;
+}
+
+.f {
+    grid-area: food6;
+}
+
+.r{
+    grid-area: description6;
+}
+
+.s{
+    grid-area: price6
+}
+
+
+.g {
+    grid-area: food7;
+}
+
+.t{
+    grid-area: description7;
+}
+
+.u{
+    grid-area: price7;
+}
+
+
+/* Gradiente*/
+
+.gradiente{
+    background-image: linear-gradient(rgb(51, 255, 0), rgb(0, 255, 242));
+}
+
+/*Animación imagen Pantano*/
+
+section{
+    transform: translateX(800px);
+    width: 126px;
+    height: 126px;
+    background-image: url(https://image.flaticon.com/icons/png/128/2195/2195254.png);
+
+    /* propiedades animación*/
+    animation-name: LogoEfect;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes LogoEfect{
+    0% {width: 0px;}
+    25% {width: 50px;}
+    50%{ width: 100px;}
+    75% {width: 150px;}
+    100% {width: 260px;}
+}
+
+
+/* Responsive Mobile*/
