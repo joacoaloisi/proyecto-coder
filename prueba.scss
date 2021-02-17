@@ -1,0 +1,62 @@
+/* Variables */
+$titulo-font: italic;
+$font-color: lime;
+$font-texto: rgb(246, 250, 250);
+$negrita: 700;
+$texto-minimo: medium;
+$font-verdana: Verdana, geneva, Tahoma, sans-serif;
+$background-color-redondeados: rgb(0, 128, 6);
+$color-bordes: whitesmoke;
+$borde-redondeados: 5px;
+$borde-radius-redondeados: 10px;
+$width-redondeados: 500px;
+$height-redondeados:200px;
+$subrayado: underline;
+$img-display: auto, block;
+$relleno-height: 90px;
+$relleno-widht: 30%;
+$relleno-background: rgb(233, 244, 248);
+$relleno-border: dashed;
+$relleno-titulo-height: 10%;
+$relleno-titulo-width: 20%;
+$relleno-titulo-background: chartreuse;
+$relleno-titulo-border: solid;
+
+
+
+/*SCCS*/
+
+.bordesRedondeados{
+background-color: $background-color-redondeados;
+color: $color-bordes;
+border: $borde-redondeados;
+border-radius: $borde-radius-redondeados;
+width: $width-redondeados;
+height: $height-redondeados;
+}
+
+
+ul{
+    display: inline; padding:0; text-align: right;
+    li{
+        display: inline;
+        li a{
+            white-space: nowrap;
+        }
+    }
+}
+
+.relleno{
+    height: $relleno-height;
+    width: $relleno-widht;
+    background-color: $relleno-background;
+    border-style: $relleno-border;
+}
+
+.rellenoTitulo{
+    height: $relleno-titulo-height;
+    width: $relleno-titulo-width;
+    background-color: $relleno-titulo-background;
+    border-style: $relleno-titulo-border;
+}
+

@@ -1,0 +1,30 @@
+/* Variables */
+/*SCCS*/
+.bordesRedondeados {
+  background-color: #008006;
+  color: whitesmoke;
+  border: 5px;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px; }
+
+ul {
+  display: inline;
+  padding: 0;
+  text-align: right; }
+  ul li {
+    display: inline; }
+    ul li li a {
+      white-space: nowrap; }
+
+.relleno {
+  height: 90px;
+  width: 30%;
+  background-color: #e9f4f8;
+  border-style: dashed; }
+
+.rellenoTitulo {
+  height: 10%;
+  width: 20%;
+  background-color: chartreuse;
+  border-style: solid; }
